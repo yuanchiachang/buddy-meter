@@ -1,0 +1,56 @@
+body{
+    background-color: #8fbde9;
+    font-family:'Helvetica Neue', sans-serif;;
+    text-align: center;
+}
+
+
+.buddy-meter__title{
+    font-size:50px;
+    text-align: center;
+}
+
+.buddy-meter__button{
+    width: 180px;
+    height: 100px;
+    font-size: 40px;
+    background-color: yellowgreen;
+    border: none;
+}
+
+main{
+    width: 500px;
+    display: inline-block;
+}
+
+.buddy-meter__problem-number{
+    font-size: 70px;
+}
+
+.buddy-meter__list{
+    background: #ff9999;
+    width:500px;
+    padding: 20px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.buddy-meter__list li{  
+    border-left: 3px solid rgb(176, 240, 176);
+    border-top: 1.5px solid rgb(176, 240, 176);
+    border-right: 3px solid rgb(176, 240, 176);
+    border-bottom: 1.5px solid rgb(176, 240, 176);
+    list-style: none;
+}
+
+.buddy-meter__list  :hover{
+    background: yellowgreen;
+}
+
+.buddy-meter__correct{
+    font-size: 50px;
+}
+
+.buddy-meter__comment{
+    font-size: 100px;
+}
